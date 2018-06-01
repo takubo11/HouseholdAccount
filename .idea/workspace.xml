@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c4ff9e-bc06-48f9-9069-e801f6db648c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/income.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/input_income.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/aggregate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/aggregate.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,27 +50,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aggregate.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aggregate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/html/aggregate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" lean-forward="true" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="450">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="income.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="income.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/income.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="input_income.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/input_income.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
@@ -123,8 +125,9 @@
         <option value="$PROJECT_DIR$/src/schema/schema.sql" />
         <option value="$PROJECT_DIR$/src/dao/dao.php" />
         <option value="$PROJECT_DIR$/src/html/index.php" />
-        <option value="$PROJECT_DIR$/src/html/aggregate.php" />
         <option value="$PROJECT_DIR$/src/html/income.php" />
+        <option value="$PROJECT_DIR$/src/html/input_income.php" />
+        <option value="$PROJECT_DIR$/src/html/aggregate.php" />
       </list>
     </option>
   </component>
@@ -280,12 +283,12 @@
       <workItem from="1527742829997" duration="44000" />
       <workItem from="1527751460680" duration="4476000" />
       <workItem from="1527773573127" duration="569000" />
-      <workItem from="1527824917075" duration="6268000" />
+      <workItem from="1527824917075" duration="7483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11357000" />
+    <option name="totallyTimeSpent" value="12572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="216" y="60" width="1280" height="729" extended-state="0" />
@@ -422,13 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/aggregate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="true" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/schema/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -437,12 +433,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/input_income.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/income.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/aggregate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
         </state>
       </provider>
     </entry>
