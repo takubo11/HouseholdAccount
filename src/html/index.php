@@ -1,3 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World!</title>
 
-echo 'Hello! world!';
+</head>
+<body>
+Hello World!
+<?php echo 'phpからHello World!' . (1 + 1)?>
+</body>
+</html>
