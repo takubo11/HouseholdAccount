@@ -5,8 +5,6 @@
 	<title>収入入力</title>
 </head>
 <body>
-
-<?php $items = $_SESSION['items']; echo $items ?>
 	<form method="post" action="input_income.php">
 		<label for="日付">日付</label>
 		<input name="created_time" id="created_tiem" value="">
@@ -17,7 +15,7 @@
 
         <select name="account_id" id ="account_id">
 			<?php $items = $_SESSION['items']; foreach($items as $item ){ ?>
-                <option value="<?php echo $item['id'] ?>"> <?php echo $item['name'] ?> </option>
+                <option value="<?php echo $item['id'] ?>"> <?php echo $item['income_name'] ?> </option>
 			<?php } ?>
 		</select>
 

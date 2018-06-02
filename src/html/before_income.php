@@ -3,8 +3,7 @@ require_once "../dao/dataDao.php";
 
 $dao = new DataDao();
 $pdo = $dao->getPdoInstance();
-$stmt = $pdo->query('select * from income order by id asc');
-$items = $stmt->execute();
+$items = $pdo->query('select * from income order by id asc');
 
 session_start();
 
