@@ -1,12 +1,12 @@
 CREATE TABLE `expence` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
- `expence_name` int(11) NOT NULL,
+ `expence_name` varchar(100) NOT NULL,
  PRIMARY KEY (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
 
 CREATE TABLE `income` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
- `income_name` int(11) NOT NULL,
+ `income_name` varchar(100) NOT NULL,
  PRIMARY KEY (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
 
